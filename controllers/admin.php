@@ -20,8 +20,6 @@ class Admin extends Admin_Controller
 		{
 			$content = NULL;
 
-			Asset::add_path('shelikesitmini', SHARED_ADDONPATH . 'themes/shelikesitmini/');
-
 			foreach ($orders as $order_id)
 			{
 				// Set some default template stuff

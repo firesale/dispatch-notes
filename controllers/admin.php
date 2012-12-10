@@ -18,6 +18,12 @@ class Admin extends Admin_Controller
 
 		if ( ! empty($orders))
 		{
+			$theme = $this->settings->get('default_theme');
+			$this->template->set_theme($theme); // So we can overload in our theme
+
+			// So we can include theme files in our overloaded templates
+			Asset::add_path($theme, $this->template->get_theme_path());
+
 			$content = NULL;
 
 			foreach ($orders as $order_id)
@@ -33,7 +39,8 @@ class Admin extends Admin_Controller
 					$content .= $this->template->build('note', $order, TRUE);
 			}
 
-			$this->template->set_layout(FALSE)
+			$this->template->set_theme($this->settings->get('default_theme')) // So we can overload in our theme
+						   ->set_layout(FALSE)
 						   ->set('content', $content)
 						   ->append_css('module::print.css')
 						   ->build('global');

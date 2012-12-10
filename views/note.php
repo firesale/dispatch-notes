@@ -100,9 +100,9 @@
 						<td class="description"><strong>{{ title }}</strong><p>Product Code: {{ code }}</td>
 						<td>{{ qty }}</td>   
 						<td class="options">
-							{{ firesale_attributes:get_by_product product=id }}
-								<span><strong>{{ attribute}}:</strong> {{ value }}</span>
-							{{ /firesale_attributes:get_by_product }}
+							{{ options }}
+								<strong>{{ title }}: </strong>{{ value }}<br />
+							{{ /options }}
 						</td>
 						<td class="price">{{ settings:currency }} {{ helper:number_format string=price decimals="2" }}</td>
 						<td class="select"><div class="box"></div></td>

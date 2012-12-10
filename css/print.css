@@ -1,30 +1,4 @@
 /* -----------------------------------------------------------------
-@font-face
------------------------------------------------------------------ */
-
-@font-face {
-    font-family: 'ostrichSansMedium';
-    src: url('../../../themes/shelikesitmini/css/fonts/ostrich-regular-webfont.eot');
-    src: url('../../../themes/shelikesitmini/css/fonts/ostrich-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../../themes/shelikesitmini/css/fonts/ostrich-regular-webfont.woff') format('woff'),
-         url('../../../themes/shelikesitmini/css/fonts/ostrich-regular-webfont.ttf') format('truetype'),
-         url('../../../themes/shelikesitmini/css/fonts/ostrich-regular-webfont.svg#fonts/ostrichSansMedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ostrichSansBlack';
-    src: url('../../../themes/shelikesitmini/css/fonts/ostrich-black-webfont.eot');
-    src: url('../../../themes/shelikesitmini/css/fonts/ostrich-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../../themes/shelikesitmini/css/fonts/ostrich-black-webfont.woff') format('woff'),
-         url('../../../themes/shelikesitmini/css/fonts/ostrich-black-webfont.ttf') format('truetype'),
-         url('../../../themes/shelikesitmini/css/fonts/ostrich-black-webfont.svg#fonts/ostrichSansBlack') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* -----------------------------------------------------------------
 General
 ----------------------------------------------------------------- */
 
@@ -36,17 +10,17 @@ body {
 }
 
 h1, h2, h3, h4 {
-	font-family: 'ostrichSansBlack', Arial, Helvetica, sans-serif; color: #000;
+	font-family: Arial, Helvetica, sans-serif; color: #000;
 	text-transform: uppercase;
 }
 
-h1 { font-size: 24px; color: #cc3c93; }
-h2 { font-size: 22px; color: #cc3c93; }
+h1 { font-size: 24px; color: #000000; }
+h2 { font-size: 22px; color: #000000; }
 h3 { font-size: 19px; color: #000; }
 h4 { font-size: 17px; color: #000; }
 
 .title { 
-	font-family: 'ostrichSansBlack', Arial, Helvetica, sans-serif; color: #000;
+	font-family: Arial, Helvetica, sans-serif; color: #000;
 	text-transform: uppercase;
 	font-size: 22px;
 	float: left;
@@ -57,7 +31,7 @@ h4 { font-size: 17px; color: #000; }
 	border-bottom: 1px solid #000; 
 	margin-bottom: 15px; 
 	line-height: 34px; 
-	color: #cc3c93;
+	color: #000000;
 }
 
 /* -----------------------------------------------------------------
@@ -76,7 +50,7 @@ Shopping Basket/Order History
 
 .shopping-basket tr.table-headings { 
 	border-bottom: 1px solid #bdbdbd; 
-	font-family: 'ostrichSansBlack', Arial, Helvetica, sans-serif; 
+	font-family: Arial, Helvetica, sans-serif; 
 	color: #000; 	
 	text-transform: uppercase; 
 	font-size: 19px;
@@ -90,7 +64,7 @@ Shopping Basket/Order History
 }
 
 .shopping-basket tr.table-headings td {
-	font-family: 'ostrichSansBlack', Arial, Helvetica, sans-serif; color: #000;
+	font-family: Arial, Helvetica, sans-serif; color: #000;
 	text-transform: uppercase;
 }
 
@@ -125,7 +99,7 @@ Shopping Basket/Order History
 
 .shopping-basket td.description {padding-right:10px;}
 .shopping-basket td.description a {color: #333}
-.shopping-basket td.price {font-size: 13px; font-weight: bold; color: #cc3c93;}
+.shopping-basket td.price {font-size: 13px; font-weight: bold; color: #000000;}
 .shopping-basket td.return { text-align: right; }
 
 .shopping-basket td.remove a {
@@ -158,7 +132,7 @@ Shopping Basket/Order History
 	margin-bottom: 15px;
 }
 #basket-total span { 
-	font-family: 'ostrichSansBlack', Arial, Helvetica, sans-serif; color: #000;
+	font-family: Arial, Helvetica, sans-serif; color: #000;
 	text-transform: uppercase;
 	color: #000;
 	font-size: 20px;
@@ -170,8 +144,8 @@ Shopping Basket/Order History
 	height: 30px;
 	line-height: 30px;
 }
-#basket-total .price { color: #cc3c93; float: right;}
-#basket-total .total { color: #cc3c93; float: right;}
+#basket-total .price { color: #000000; float: right;}
+#basket-total .total { color: #000000; float: right;}
 #basket-total select { width: 200px; }
 #basket-total.checkout-btn {margin: 25px 0 40px 0; }
 

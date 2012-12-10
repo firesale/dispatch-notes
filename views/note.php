@@ -1,7 +1,7 @@
 <div class="container">
 	<!-- CH: Don't ask! I got the address label template from amazonpaper.co.uk
 		It works well with converting HTML into PDFs too-->
-	<table align="left" width="500" border="0">
+	<table align="left" width="600" border="0">
 		<tr>
 			<td width="3%" height="40">&nbsp;</td>
 			<td width="97%"><br></td>
@@ -31,7 +31,7 @@
 		</tr>
 	</table>
 
-	<table align="right" width="300" border="0">
+	<table align="right" width="350" border="0">
 		<tr>
 			<td width="3%" height="40">&nbsp;</td>
 			<td width="97%"><br></td>
@@ -44,12 +44,12 @@
 			<td height="300">&nbsp;</td>
 			<td valign="top">
 				<font style="line-height:30px" size="4" face="Verdana, Arial, Helvetica, sans-serif">
-					She Likes It Mini
-					<br>Wellington House
-					<br>Wellington Road
-					<br>Dunston
-					<br>Newcatsle upon Tyne
-					<br>NE11 9JL
+					Address 1
+					<br>Address 2
+					<br>Address 3
+					<br>Town/City
+					<br>County
+					<br>Postcode
 				</font>
 			</td>
 		</tr>
@@ -61,10 +61,10 @@
 
 	<header>
 		<div class="logo">
-			{{ asset:image file="shelikesitmini::logo.png" }}
+			Logo Here
 		</div>
 		<h1 class="title">Dispatch Note</h1>
-		<p>Thank you for shopping with She Likes It Mini. Should you need to return an item then please fill out this form and send it back to us along with the item(s) that you are returning.</p>
+		<p>Thank you for shopping with us. Should you need to return an item then please fill out this form and send it back to us along with the item(s) that you are returning.</p>
 		<p>Items must be returned within 7 days from the date of receipt.</p>
 		<p><strong>SALE ITEMS ARE NON RETURNABLE</strong></p>
 	</header>
@@ -127,10 +127,8 @@
 			<h2>Reason Codes</h2>
 			<ol>
 				<li><span>Looks Different To Image On Site</span></li>
-				<li><span>Ordered More Than One Size</span></li>
+				<li><span>Ordered More Than One</span></li>
 				<li><span>Poor Quality/Faulty</span></li>
-				<li><span>Doesn't Fit Properly</span></li>
-				<li><span>Doesn't Suit Me</span></li>
 				<li><span>Incorrect Item Received</span></li>
 				<li><span>Parcel Damaged On Arrival</span></li>
 				<li><span>Other</span></li>
